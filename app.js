@@ -81,3 +81,28 @@ function spiderStrength() {
 }
 
 console.log(spiderMan(spiderWeb, spiderStrength));
+
+
+
+
+function blastOff() {
+    let num = 0;
+
+    for (let i = 10; i >= num; i--) {
+        console.log(i);
+    }
+}
+
+setTimeout(blastOff, 5000);
+
+function printName() {
+    let num = 0;
+
+    for (let i = 10; i >= num; i--) {
+        console.log(i);
+    } 
+
+    console.log('SOLOMON!!!');
+}
+
+setTimeout(printName, 5000);
