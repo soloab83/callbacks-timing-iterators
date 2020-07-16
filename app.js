@@ -58,3 +58,26 @@ function subtractNumbers(num1, num2) {
 }
 
 console.log(calculator(5,77, addNumbers. subtractNumbers))
+
+
+// SuperHero Function
+
+function spiderMan (power1, power2,) {
+    let powers = power1() + ' and ' + power2();
+
+    return powers;
+}
+
+function spiderWeb() {
+    let power = 'I have spider web';
+
+    return power;
+}
+
+function spiderStrength() {
+    let strength = 'I have super strength';
+
+    return strength;
+}
+
+console.log(spiderMan(spiderWeb, spiderStrength));
